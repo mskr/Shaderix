@@ -8,6 +8,8 @@ Unix-like shell, but for executing shader programs on geometry- or image-files.
 2) scan cwd for shader/model/image files and 
 3) prepare them for execution/processing.
 
+[Command language](https://github.com/mskr/cmd)
+
 String/filename/URL hashing:
 
 1) Techniques from Gregory's Game Engine Technology book.
