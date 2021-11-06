@@ -34,7 +34,11 @@ String/filename/URL hashing:
 
 ## Future
 
-Instead of rolling our own GUI, we integrate into the Open With... menu that most OS have. We can use the camera metaphor: open 3D file with camera. It should be a tool that every Technical Artist can use for real-time projects in the industry (somewhere money has to come from).
+Instead of rolling our own GUI, we integrate into the Open With... menu that most OS have. We can use the camera metaphor: open 3D file with camera.
+
+It should be a tool that every Technical Artist can use for real-time projects in the industry (somewhere money has to come from).
+
+There can be many little camera programs based on Shaderix.
 
 ### Advanced features
 
