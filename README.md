@@ -32,7 +32,7 @@ String/filename/URL hashing:
 
 ```
 
-## Future
+## GUI
 
 Instead of rolling our own GUI, we integrate into the Open With... menu that most OS have. We can use the camera metaphor: open 3D file with camera.
 
@@ -40,7 +40,7 @@ It should be a tool that every Technical Artist can use for real-time projects i
 
 There can be many little camera programs based on Shaderix.
 
-### Advanced features
+## Advanced features
 
 Advanced features can build on variables:
 
@@ -51,3 +51,15 @@ Some variables can be simple commands:
 
 1) Annotation for when it is executed: @init, @render (inside render loop).
 2) Syntax should equal a subset of the intersection of C and GLSL.
+
+## AI
+
+Train on OBJ files from the web.
+
+Use it to generate or autocomplete OBJ.
+
+## Data Format
+
+"Getting modules to talk to each other, however, is not a trivial problem. I think the only way to design interfaces that's actually stood the test of time was not to design them in terms of function calls or classes, but to design them in terms of data formats." (https://isetta.io/interviews/ArasPranckevicius-interview/) 
+
+And the nicest data/file formats are formulated in terms of commands + data, so that they can be interactively created in some kind of REPL.
