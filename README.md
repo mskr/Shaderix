@@ -58,8 +58,35 @@ Train on OBJ files from the web.
 
 Use it to generate or autocomplete OBJ.
 
-## Data Format
+## File Format Based on Commands
 
 "Getting modules to talk to each other, however, is not a trivial problem. I think the only way to design interfaces that's actually stood the test of time was not to design them in terms of function calls or classes, but to design them in terms of data formats." (https://isetta.io/interviews/ArasPranckevicius-interview/) 
 
 And the nicest data/file formats are formulated in terms of commands + data, so that they can be interactively created in some kind of REPL.
+
+A file format based on commands is more than a file format.
+
+It is a REPL language.
+
+It is a network protocol.
+
+### Examples
+
+Example GUI file format:
+
+```
+layout border
+button PRESSME border.north
+```
+
+### Axioms
+
+1. Favor file structure over code structure. Ignore indentations.
+
+2. Many small files are friendly to version control and collaboration.
+
+3. Files are considered objects as in OOP. This invites extension and reuse as in libraries.
+
+4. Code files can be referenced. Hereby the file format integrates into the coding ecosystem.
+
+5. Natively supported code file formats are c, cs, js, ts, py, glsl, frag, vert, spirv.
